@@ -40,8 +40,9 @@ Most of it is open source, below.
 **[senior-mode](https://github.com/MaxWynnDev/senior-mode)** &nbsp;·&nbsp; `"use strict"` for coding agents
 
 The agent infrastructure above, extracted and made portable. One core, adapters for nine agents, seven stack
-profiles picked from evidence instead of guessed, and a 60-case harness that runs on Linux, macOS and Windows. 
-MIT.
+profiles picked from evidence instead of guessed, and a 287-case harness that runs on Linux, macOS and Windows.
+Since v7 it reads the code after every edit: imports that name nothing, calls with the wrong argument count,
+and your repo's own type checker on the file that changed. MIT.
 
 **[hangar](https://github.com/MaxWynnDev/hangar)** &nbsp;·&nbsp; team chat where `@claude` is a real Claude Code session
 
